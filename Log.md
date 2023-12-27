@@ -1,3 +1,3 @@
-#REF  DATE       AUTHOR  Changes Made...
+REF  DATE    AUTHOR  Changes Made
 
-#000  2023/12/27 James   Added this change log file
+000  20231227 JG Added this change log file

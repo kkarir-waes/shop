@@ -1,3 +1,2 @@
-NAME - TIME - DATE - CHANGES - CHANGE NUMBER
-\
-James - 20:38 - 27 December - Added log file - 000
+REF  DATE       AUTHOR  Changes Made...
+000  2023/12/27 James   Added this change log file

@@ -15,6 +15,7 @@ REF  DATE    AUTHOR  Changes Made
 - In urls.py : added path and imported include.
 
 006 2023-12-28 SV added in settings.py: email backend and users email authentication
-**We need to add superuser account and migration**
 
 007  2023-12-28 KK Added 3 template files for index.html, style.css and form.html, taken from Code Inst Coders' Coffee House walkthrough
+
+008 2023-12-28 SV created superuser and secret.md with user details.

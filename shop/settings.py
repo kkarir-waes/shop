@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bh5%mw-=-yh$_zg^=^+sp-o5q2%n*xqn-(&qmg=q&y2)e9a(5^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-kkarirwaes-shop-3xhewlb3xqu.ws-eu107.gitpod.io'] #SV 004
+ALLOWED_HOSTS = ['8000-kkarirwaes-shop-fvnvkhd7bq1.ws-eu107.gitpod.io'] #SV 004
 
 
 # Application definition
@@ -70,6 +70,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 #005 SV 
 # taken from https://docs.allauth.org/en/latest/installation/quickstart.html

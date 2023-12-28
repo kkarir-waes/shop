@@ -85,6 +85,7 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
+
 #006 SV Email backend
 """By default allauth will send confirmation email to any new account so I have to
 temporarily log those emails to the console so we can get the confirmation links"""

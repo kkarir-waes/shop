@@ -18,4 +18,5 @@ REF  DATE    AUTHOR  Changes Made
 
 007  2023-12-28 KK Added 3 template files for index.html, style.css and form.html, taken from Code Inst Coders' Coffee House walkthrough
 
-008 2023-12-28 SV created superuser and secret.md with user details.
+008 2023-12-28 SV created superuser and secret.md with user details, added requirements.txt
+I have tried to do this command to copy recursively allauth but it is not working I leave you the command if you can see the error: cp -r /workspace/.pip-modules/lib/python3.12.1/site-packages/allauth/templates/* ./templates/allauth/ 

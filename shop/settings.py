@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-
+import os #005 SV 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bh5%mw-=-yh$_zg^=^+sp-o5q2%n*xqn-(&qmg=q&y2)e9a(5^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-kkarirwaes-shop-3xhewlb3xqu.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-kkarirwaes-shop-3xhewlb3xqu.ws-eu107.gitpod.io'] #SV 004
 
 
 # Application definition
@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites', # #005 SV,  in the actual web says .auth / it is used for connecting via social media accounts.
+    'allauth', # #005 SV, alluth itself
+    'allauth.account', ##005 SV, allow users all the basic account features
+    'allauth.socialaccount', ##005 SV, handles logging in via social media providers like Facebook
 ]
 
 MIDDLEWARE = [
@@ -66,6 +70,19 @@ TEMPLATES = [
         },
     },
 ]
+
+#005 SV 
+# taken from https://docs.allauth.org/en/latest/installation/quickstart.html
+AUTHENTICATION_BACKENDS = [
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by email
+    'allauth.account.auth_backends.AuthenticationBackend',
+] #Allowing users to log into our store via their email address
+
+
+SITE_ID = 1
 
 WSGI_APPLICATION = 'shop.wsgi.application'
 

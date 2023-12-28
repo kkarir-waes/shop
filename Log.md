@@ -8,4 +8,10 @@ REF  DATE    AUTHOR  Changes Made
 
 003  2023-12-28 SV Installed 'django<4' and upgraded pip.
 
-004  2023-12-28 SV django-admin startproject shop and allow Host.
+004  2023-12-28 SV django-admin startproject shop and allow Host
+
+005 2023-12-28 SV Installed Allauth version: 'django-allauth==0.41.0'. 
+- In settings.py : imported os, added authentification backend, installed Apps (allauth account, socialmedia...), site_id 1.
+- In urls.py : added path and imported include.
+
+**We need to add superuser account**

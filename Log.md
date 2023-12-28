@@ -5,3 +5,7 @@ REF  DATE    AUTHOR  Changes Made
 001  2023-12-28 SV Added possible features to include README file.
 
 002  2023-12-28 SV Created gitignore file.
+
+003  2023-12-28 SV Installed 'django<4' and upgraded pip.
+
+004  2023-12-28 SV django-admin startproject shop and allow Host.

@@ -14,4 +14,5 @@ REF  DATE    AUTHOR  Changes Made
 - In settings.py : imported os, added authentification backend, installed Apps (allauth account, socialmedia...), site_id 1.
 - In urls.py : added path and imported include.
 
-**We need to add superuser account**
+006 2023-12-28 SV added in settings.py: email backend and users email authentication
+**We need to add superuser account and migration**
